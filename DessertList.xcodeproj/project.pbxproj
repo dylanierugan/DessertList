@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3753E6032C79039A00182530 /* Dessert_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6022C79039A00182530 /* Dessert_ListApp.swift */; };
-		3753E6052C79039A00182530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6042C79039A00182530 /* ContentView.swift */; };
+		3753E6052C79039A00182530 /* DessertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6042C79039A00182530 /* DessertsView.swift */; };
 		3753E6072C79039C00182530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753E6062C79039C00182530 /* Assets.xcassets */; };
 		3753E60B2C79039C00182530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753E60A2C79039C00182530 /* Preview Assets.xcassets */; };
+		3753E6122C7903B600182530 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6112C7903B600182530 /* Dessert.swift */; };
+		3753E6142C7A93D200182530 /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6132C7A93D200182530 /* DessertDetailView.swift */; };
+		3753E6182C7A9C7800182530 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6172C7A9C7800182530 /* Enums.swift */; };
+		3753E61C2C7AB74100182530 /* DessertDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E61B2C7AB74100182530 /* DessertDetail.swift */; };
+		3753E61E2C7AB75300182530 /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E61D2C7AB75300182530 /* DessertViewModel.swift */; };
+		3753E6202C7AB77D00182530 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E61F2C7AB77D00182530 /* NetworkManager.swift */; };
+		3753E6262C7C4B5000182530 /* DessertCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753E6252C7C4B5000182530 /* DessertCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3753E5FF2C79039A00182530 /* Dessert List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dessert List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3753E6022C79039A00182530 /* Dessert_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert_ListApp.swift; sourceTree = "<group>"; };
-		3753E6042C79039A00182530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3753E6042C79039A00182530 /* DessertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsView.swift; sourceTree = "<group>"; };
 		3753E6062C79039C00182530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3753E6082C79039C00182530 /* Dessert_List.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dessert_List.entitlements; sourceTree = "<group>"; };
 		3753E60A2C79039C00182530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3753E6112C7903B600182530 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		3753E6132C7A93D200182530 /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
+		3753E6172C7A9C7800182530 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3753E61B2C7AB74100182530 /* DessertDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetail.swift; sourceTree = "<group>"; };
+		3753E61D2C7AB75300182530 /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		3753E61F2C7AB77D00182530 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3753E6252C7C4B5000182530 /* DessertCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				3753E6022C79039A00182530 /* Dessert_ListApp.swift */,
-				3753E6042C79039A00182530 /* ContentView.swift */,
+				3753E6222C7AB7C100182530 /* Models */,
+				3753E6242C7BA72200182530 /* ViewModel */,
+				3753E6212C7AB7B800182530 /* Views */,
+				3753E6232C7AB7DA00182530 /* Utilities */,
 				3753E6062C79039C00182530 /* Assets.xcassets */,
 				3753E6082C79039C00182530 /* Dessert_List.entitlements */,
 				3753E6092C79039C00182530 /* Preview Content */,
@@ -67,6 +84,42 @@
 				3753E60A2C79039C00182530 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3753E6212C7AB7B800182530 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3753E6042C79039A00182530 /* DessertsView.swift */,
+				3753E6252C7C4B5000182530 /* DessertCardView.swift */,
+				3753E6132C7A93D200182530 /* DessertDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3753E6222C7AB7C100182530 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3753E6112C7903B600182530 /* Dessert.swift */,
+				3753E61B2C7AB74100182530 /* DessertDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3753E6232C7AB7DA00182530 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3753E61F2C7AB77D00182530 /* NetworkManager.swift */,
+				3753E6172C7A9C7800182530 /* Enums.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3753E6242C7BA72200182530 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3753E61D2C7AB75300182530 /* DessertViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3753E6052C79039A00182530 /* ContentView.swift in Sources */,
+				3753E6202C7AB77D00182530 /* NetworkManager.swift in Sources */,
+				3753E6052C79039A00182530 /* DessertsView.swift in Sources */,
+				3753E6122C7903B600182530 /* Dessert.swift in Sources */,
+				3753E6182C7A9C7800182530 /* Enums.swift in Sources */,
+				3753E6142C7A93D200182530 /* DessertDetailView.swift in Sources */,
+				3753E61C2C7AB74100182530 /* DessertDetail.swift in Sources */,
+				3753E6262C7C4B5000182530 /* DessertCardView.swift in Sources */,
 				3753E6032C79039A00182530 /* Dessert_ListApp.swift in Sources */,
+				3753E61E2C7AB75300182530 /* DessertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
